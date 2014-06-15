@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38322C88194D4D25006B3321 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38322C87194D4D25006B3321 /* Foundation.framework */; };
+		38322C8A194D4D25006B3321 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38322C89194D4D25006B3321 /* CoreGraphics.framework */; };
+		38322C8C194D4D25006B3321 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38322C8B194D4D25006B3321 /* UIKit.framework */; };
+		38322C92194D4D25006B3321 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38322C90194D4D25006B3321 /* InfoPlist.strings */; };
+		38322C94194D4D25006B3321 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38322C93194D4D25006B3321 /* main.m */; };
+		38322C98194D4D25006B3321 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38322C97194D4D25006B3321 /* AppDelegate.m */; };
+		38322C9B194D4D25006B3321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38322C99194D4D25006B3321 /* Main.storyboard */; };
+		38322C9E194D4D25006B3321 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38322C9D194D4D25006B3321 /* MasterViewController.m */; };
+		38322CA1194D4D25006B3321 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38322CA0194D4D25006B3321 /* DetailViewController.m */; };
+		38322CA3194D4D25006B3321 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38322CA2194D4D25006B3321 /* Images.xcassets */; };
+		38322CAA194D4D25006B3321 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38322CA9194D4D25006B3321 /* XCTest.framework */; };
+		38322CAB194D4D25006B3321 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38322C87194D4D25006B3321 /* Foundation.framework */; };
+		38322CAC194D4D25006B3321 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38322C8B194D4D25006B3321 /* UIKit.framework */; };
+		38322CB4194D4D25006B3321 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38322CB2194D4D25006B3321 /* InfoPlist.strings */; };
+		38322CB6194D4D25006B3321 /* SpinCityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38322CB5194D4D25006B3321 /* SpinCityTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38322CAD194D4D25006B3321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38322C7C194D4D25006B3321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38322C83194D4D25006B3321;
+			remoteInfo = SpinCity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38322C84194D4D25006B3321 /* SpinCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38322C87194D4D25006B3321 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		38322C89194D4D25006B3321 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		38322C8B194D4D25006B3321 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		38322C8F194D4D25006B3321 /* SpinCity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpinCity-Info.plist"; sourceTree = "<group>"; };
+		38322C91194D4D25006B3321 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38322C93194D4D25006B3321 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38322C95194D4D25006B3321 /* SpinCity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpinCity-Prefix.pch"; sourceTree = "<group>"; };
+		38322C96194D4D25006B3321 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38322C97194D4D25006B3321 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38322C9A194D4D25006B3321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38322C9C194D4D25006B3321 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		38322C9D194D4D25006B3321 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		38322C9F194D4D25006B3321 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		38322CA0194D4D25006B3321 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		38322CA2194D4D25006B3321 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		38322CA8194D4D25006B3321 /* SpinCityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpinCityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38322CA9194D4D25006B3321 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		38322CB1194D4D25006B3321 /* SpinCityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpinCityTests-Info.plist"; sourceTree = "<group>"; };
+		38322CB3194D4D25006B3321 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38322CB5194D4D25006B3321 /* SpinCityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpinCityTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38322C81194D4D25006B3321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38322C8A194D4D25006B3321 /* CoreGraphics.framework in Frameworks */,
+				38322C8C194D4D25006B3321 /* UIKit.framework in Frameworks */,
+				38322C88194D4D25006B3321 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38322CA5194D4D25006B3321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38322CAA194D4D25006B3321 /* XCTest.framework in Frameworks */,
+				38322CAC194D4D25006B3321 /* UIKit.framework in Frameworks */,
+				38322CAB194D4D25006B3321 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38322C7B194D4D25006B3321 = {
+			isa = PBXGroup;
+			children = (
+				38322C8D194D4D25006B3321 /* SpinCity */,
+				38322CAF194D4D25006B3321 /* SpinCityTests */,
+				38322C86194D4D25006B3321 /* Frameworks */,
+				38322C85194D4D25006B3321 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38322C85194D4D25006B3321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38322C84194D4D25006B3321 /* SpinCity.app */,
+				38322CA8194D4D25006B3321 /* SpinCityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38322C86194D4D25006B3321 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38322C87194D4D25006B3321 /* Foundation.framework */,
+				38322C89194D4D25006B3321 /* CoreGraphics.framework */,
+				38322C8B194D4D25006B3321 /* UIKit.framework */,
+				38322CA9194D4D25006B3321 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38322C8D194D4D25006B3321 /* SpinCity */ = {
+			isa = PBXGroup;
+			children = (
+				38322C96194D4D25006B3321 /* AppDelegate.h */,
+				38322C97194D4D25006B3321 /* AppDelegate.m */,
+				38322C99194D4D25006B3321 /* Main.storyboard */,
+				38322C9C194D4D25006B3321 /* MasterViewController.h */,
+				38322C9D194D4D25006B3321 /* MasterViewController.m */,
+				38322C9F194D4D25006B3321 /* DetailViewController.h */,
+				38322CA0194D4D25006B3321 /* DetailViewController.m */,
+				38322CA2194D4D25006B3321 /* Images.xcassets */,
+				38322C8E194D4D25006B3321 /* Supporting Files */,
+			);
+			path = SpinCity;
+			sourceTree = "<group>";
+		};
+		38322C8E194D4D25006B3321 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38322C8F194D4D25006B3321 /* SpinCity-Info.plist */,
+				38322C90194D4D25006B3321 /* InfoPlist.strings */,
+				38322C93194D4D25006B3321 /* main.m */,
+				38322C95194D4D25006B3321 /* SpinCity-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38322CAF194D4D25006B3321 /* SpinCityTests */ = {
+			isa = PBXGroup;
+			children = (
+				38322CB5194D4D25006B3321 /* SpinCityTests.m */,
+				38322CB0194D4D25006B3321 /* Supporting Files */,
+			);
+			path = SpinCityTests;
+			sourceTree = "<group>";
+		};
+		38322CB0194D4D25006B3321 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38322CB1194D4D25006B3321 /* SpinCityTests-Info.plist */,
+				38322CB2194D4D25006B3321 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38322C83194D4D25006B3321 /* SpinCity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38322CB9194D4D25006B3321 /* Build configuration list for PBXNativeTarget "SpinCity" */;
+			buildPhases = (
+				38322C80194D4D25006B3321 /* Sources */,
+				38322C81194D4D25006B3321 /* Frameworks */,
+				38322C82194D4D25006B3321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpinCity;
+			productName = SpinCity;
+			productReference = 38322C84194D4D25006B3321 /* SpinCity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38322CA7194D4D25006B3321 /* SpinCityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38322CBC194D4D25006B3321 /* Build configuration list for PBXNativeTarget "SpinCityTests" */;
+			buildPhases = (
+				38322CA4194D4D25006B3321 /* Sources */,
+				38322CA5194D4D25006B3321 /* Frameworks */,
+				38322CA6194D4D25006B3321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38322CAE194D4D25006B3321 /* PBXTargetDependency */,
+			);
+			name = SpinCityTests;
+			productName = SpinCityTests;
+			productReference = 38322CA8194D4D25006B3321 /* SpinCityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38322C7C194D4D25006B3321 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Larry Williamson";
+				TargetAttributes = {
+					38322CA7194D4D25006B3321 = {
+						TestTargetID = 38322C83194D4D25006B3321;
+					};
+				};
+			};
+			buildConfigurationList = 38322C7F194D4D25006B3321 /* Build configuration list for PBXProject "SpinCity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38322C7B194D4D25006B3321;
+			productRefGroup = 38322C85194D4D25006B3321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38322C83194D4D25006B3321 /* SpinCity */,
+				38322CA7194D4D25006B3321 /* SpinCityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38322C82194D4D25006B3321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38322CA3194D4D25006B3321 /* Images.xcassets in Resources */,
+				38322C92194D4D25006B3321 /* InfoPlist.strings in Resources */,
+				38322C9B194D4D25006B3321 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38322CA6194D4D25006B3321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38322CB4194D4D25006B3321 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38322C80194D4D25006B3321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38322C98194D4D25006B3321 /* AppDelegate.m in Sources */,
+				38322C9E194D4D25006B3321 /* MasterViewController.m in Sources */,
+				38322C94194D4D25006B3321 /* main.m in Sources */,
+				38322CA1194D4D25006B3321 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38322CA4194D4D25006B3321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38322CB6194D4D25006B3321 /* SpinCityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38322CAE194D4D25006B3321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38322C83194D4D25006B3321 /* SpinCity */;
+			targetProxy = 38322CAD194D4D25006B3321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38322C90194D4D25006B3321 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38322C91194D4D25006B3321 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		38322C99194D4D25006B3321 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38322C9A194D4D25006B3321 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38322CB2194D4D25006B3321 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38322CB3194D4D25006B3321 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38322CB7194D4D25006B3321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38322CB8194D4D25006B3321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38322CBA194D4D25006B3321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpinCity/SpinCity-Prefix.pch";
+				INFOPLIST_FILE = "SpinCity/SpinCity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		38322CBB194D4D25006B3321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpinCity/SpinCity-Prefix.pch";
+				INFOPLIST_FILE = "SpinCity/SpinCity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		38322CBD194D4D25006B3321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpinCity.app/SpinCity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpinCity/SpinCity-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SpinCityTests/SpinCityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		38322CBE194D4D25006B3321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpinCity.app/SpinCity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpinCity/SpinCity-Prefix.pch";
+				INFOPLIST_FILE = "SpinCityTests/SpinCityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38322C7F194D4D25006B3321 /* Build configuration list for PBXProject "SpinCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38322CB7194D4D25006B3321 /* Debug */,
+				38322CB8194D4D25006B3321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38322CB9194D4D25006B3321 /* Build configuration list for PBXNativeTarget "SpinCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38322CBA194D4D25006B3321 /* Debug */,
+				38322CBB194D4D25006B3321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38322CBC194D4D25006B3321 /* Build configuration list for PBXNativeTarget "SpinCityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38322CBD194D4D25006B3321 /* Debug */,
+				38322CBE194D4D25006B3321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38322C7C194D4D25006B3321 /* Project object */;
+}
