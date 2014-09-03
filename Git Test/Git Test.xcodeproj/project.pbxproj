@@ -21,6 +21,7 @@
 		46961A6F19B6A8810090FA63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46961A5119B6A8810090FA63 /* UIKit.framework */; };
 		46961A7719B6A8810090FA63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46961A7519B6A8810090FA63 /* InfoPlist.strings */; };
 		46961A7919B6A8810090FA63 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46961A7819B6A8810090FA63 /* Git_TestTests.m */; };
+		46961A8419B6B95F0090FA63 /* LWTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 46961A8319B6B95F0090FA63 /* LWTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		46961A7419B6A8810090FA63 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		46961A7619B6A8810090FA63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		46961A7819B6A8810090FA63 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		46961A8219B6B95F0090FA63 /* LWTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTest.h; sourceTree = "<group>"; };
+		46961A8319B6B95F0090FA63 /* LWTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		46961A4119B6A8810090FA63 = {
 			isa = PBXGroup;
 			children = (
+				46961A8219B6B95F0090FA63 /* LWTest.h */,
+				46961A8319B6B95F0090FA63 /* LWTest.m */,
 				46961A5319B6A8810090FA63 /* Git Test */,
 				46961A7219B6A8810090FA63 /* Git TestTests */,
 				46961A4C19B6A8810090FA63 /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				46961A5A19B6A8810090FA63 /* main.m in Sources */,
 				46961A5E19B6A8810090FA63 /* LWAppDelegate.m in Sources */,
+				46961A8419B6B95F0090FA63 /* LWTest.m in Sources */,
 				46961A6419B6A8810090FA63 /* LWViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
