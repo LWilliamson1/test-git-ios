@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "LWCharacter.h"
+#import "LWBoss.h"
 
 @interface LWFactory : NSObject
+
+-(NSArray *) tiles;
+-(LWCharacter*) character;
+-(LWBoss*) boss;
 
 @end

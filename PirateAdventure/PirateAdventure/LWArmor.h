@@ -10,4 +10,7 @@
 
 @interface LWArmor : NSObject
 
+@property(strong,nonatomic) NSString *name;
+@property(nonatomic) int health;
+
 @end

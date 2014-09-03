@@ -21,6 +21,7 @@
 		383178E0199FDABD00A61DAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383178C2199FDABD00A61DAA /* UIKit.framework */; };
 		383178E8199FDABD00A61DAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 383178E6199FDABD00A61DAA /* InfoPlist.strings */; };
 		383178EA199FDABD00A61DAA /* MyFirstApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 383178E9199FDABD00A61DAA /* MyFirstApplicationTests.m */; };
+		383178F4199FE86600A61DAA /* images-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 383178F3199FE86600A61DAA /* images-2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		383178E5199FDABD00A61DAA /* MyFirstApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFirstApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		383178E7199FDABD00A61DAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		383178E9199FDABD00A61DAA /* MyFirstApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstApplicationTests.m; sourceTree = "<group>"; };
+		383178F3199FE86600A61DAA /* images-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "images-2.jpeg"; path = "../../images-2.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		383178C5199FDABD00A61DAA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				383178F3199FE86600A61DAA /* images-2.jpeg */,
 				383178C6199FDABD00A61DAA /* MyFirstApplication-Info.plist */,
 				383178C7199FDABD00A61DAA /* InfoPlist.strings */,
 				383178CA199FDABD00A61DAA /* main.m */,
@@ -231,6 +234,7 @@
 			files = (
 				383178D7199FDABD00A61DAA /* Images.xcassets in Resources */,
 				383178C9199FDABD00A61DAA /* InfoPlist.strings in Resources */,
+				383178F4199FE86600A61DAA /* images-2.jpeg in Resources */,
 				383178D2199FDABD00A61DAA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +461,7 @@
 				383178EF199FDABD00A61DAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		383178F0199FDABD00A61DAA /* Build configuration list for PBXNativeTarget "MyFirstApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +470,7 @@
 				383178F2199FDABD00A61DAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

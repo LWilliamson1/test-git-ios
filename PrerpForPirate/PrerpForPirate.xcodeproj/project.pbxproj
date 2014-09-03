@@ -21,6 +21,7 @@
 		386E313819A6DA2A00E785D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386E311A19A6DA2800E785D5 /* UIKit.framework */; };
 		386E314019A6DA2A00E785D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 386E313E19A6DA2A00E785D5 /* InfoPlist.strings */; };
 		386E314219A6DA2A00E785D5 /* PrerpForPirateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 386E314119A6DA2A00E785D5 /* PrerpForPirateTests.m */; };
+		386E314D19A6E7DC00E785D5 /* LWAwesomeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 386E314C19A6E7DC00E785D5 /* LWAwesomeClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		386E313D19A6DA2A00E785D5 /* PrerpForPirateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrerpForPirateTests-Info.plist"; sourceTree = "<group>"; };
 		386E313F19A6DA2A00E785D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		386E314119A6DA2A00E785D5 /* PrerpForPirateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrerpForPirateTests.m; sourceTree = "<group>"; };
+		386E314B19A6E7DC00E785D5 /* LWAwesomeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWAwesomeClass.h; sourceTree = "<group>"; };
+		386E314C19A6E7DC00E785D5 /* LWAwesomeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWAwesomeClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				386E312819A6DA2A00E785D5 /* Main.storyboard */,
 				386E312B19A6DA2A00E785D5 /* LWViewController.h */,
 				386E312C19A6DA2A00E785D5 /* LWViewController.m */,
+				386E314B19A6E7DC00E785D5 /* LWAwesomeClass.h */,
+				386E314C19A6E7DC00E785D5 /* LWAwesomeClass.m */,
 				386E312E19A6DA2A00E785D5 /* Images.xcassets */,
 				386E311D19A6DA2900E785D5 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				386E312319A6DA2900E785D5 /* main.m in Sources */,
+				386E314D19A6E7DC00E785D5 /* LWAwesomeClass.m in Sources */,
 				386E312719A6DA2900E785D5 /* LWAppDelegate.m in Sources */,
 				386E312D19A6DA2A00E785D5 /* LWViewController.m in Sources */,
 			);

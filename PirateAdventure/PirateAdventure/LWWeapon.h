@@ -10,4 +10,7 @@
 
 @interface LWWeapon : NSObject
 
+@property(strong,nonatomic) NSString *name;
+@property(nonatomic) int damage;
+
 @end

@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface LWBoss : NSObject
-
+@property (nonatomic) int health;
 @end

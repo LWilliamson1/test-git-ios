@@ -10,4 +10,6 @@
 
 @interface MBFPuppy : MBFDog
 
+-(void) givePuppyEyes;
+
 @end

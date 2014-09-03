@@ -21,6 +21,7 @@
 		386E302119A0739300E785D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386E300319A0739300E785D5 /* UIKit.framework */; };
 		386E302919A0739300E785D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 386E302719A0739300E785D5 /* InfoPlist.strings */; };
 		386E302B19A0739300E785D5 /* Age_of_LaikaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 386E302A19A0739300E785D5 /* Age_of_LaikaTests.m */; };
+		386E303519A076AF00E785D5 /* LaikaSpaceDog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 386E303419A076AF00E785D5 /* LaikaSpaceDog.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		386E302619A0739300E785D5 /* Age of LaikaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Age of LaikaTests-Info.plist"; sourceTree = "<group>"; };
 		386E302819A0739300E785D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		386E302A19A0739300E785D5 /* Age_of_LaikaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Age_of_LaikaTests.m; sourceTree = "<group>"; };
+		386E303419A076AF00E785D5 /* LaikaSpaceDog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LaikaSpaceDog.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		386E300619A0739300E785D5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				386E303419A076AF00E785D5 /* LaikaSpaceDog.jpg */,
 				386E300719A0739300E785D5 /* Age of Laika-Info.plist */,
 				386E300819A0739300E785D5 /* InfoPlist.strings */,
 				386E300B19A0739300E785D5 /* main.m */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				386E303519A076AF00E785D5 /* LaikaSpaceDog.jpg in Resources */,
 				386E301819A0739300E785D5 /* Images.xcassets in Resources */,
 				386E300A19A0739300E785D5 /* InfoPlist.strings in Resources */,
 				386E301319A0739300E785D5 /* Main.storyboard in Resources */,

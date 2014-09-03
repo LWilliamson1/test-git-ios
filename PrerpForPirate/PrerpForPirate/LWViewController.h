@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LWAwesomeClass.h"
 
 @interface LWViewController : UIViewController
+
+@property (nonatomic) CGPoint currentPoint;
+@property (strong, nonatomic) IBOutlet UIButton *myButton;
+@property (nonatomic, strong) LWAwesomeClass *awesomeClass;
+
 
 @end

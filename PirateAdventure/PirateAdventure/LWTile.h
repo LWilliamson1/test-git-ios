@@ -7,7 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "LWWeapon.h"
+#import "LWArmor.h"
 
 @interface LWTile : NSObject
+@property (strong, nonatomic) NSString *story;
+@property (strong, nonatomic) UIImage *backgroundImage;
+@property (strong, nonatomic) NSString *actionButtonName;
+@property (strong, nonatomic) LWWeapon *weapon;
+@property (strong, nonatomic) LWArmor *armor;
+@property (nonatomic) int healthEffect;
+
 
 @end

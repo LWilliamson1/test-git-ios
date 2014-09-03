@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface LWViewController : UIViewController
+-(void)printNumbers: (int) start;
+-(void)printNumbersBetween: (int) start stop:(int) stop;
+-(int)printFactorial: (int) factorial;
 
 @end

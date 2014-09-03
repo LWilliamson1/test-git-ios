@@ -10,4 +10,16 @@
 
 @implementation MBFPuppy
 
+-(void) givePuppyEyes
+{
+    NSLog(@":(");
+}
+
+-(void) bark
+{
+    [super bark];
+    NSLog(@"whimper whimper");
+    [self givePuppyEyes];
+}
+
 @end

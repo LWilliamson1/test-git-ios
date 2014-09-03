@@ -22,6 +22,7 @@
 		38322CAC194D4D25006B3321 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38322C8B194D4D25006B3321 /* UIKit.framework */; };
 		38322CB4194D4D25006B3321 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38322CB2194D4D25006B3321 /* InfoPlist.strings */; };
 		38322CB6194D4D25006B3321 /* SpinCityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38322CB5194D4D25006B3321 /* SpinCityTests.m */; };
+		38322CC1194D5B24006B3321 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 38322CC0194D5B24006B3321 /* Album.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		38322CB1194D4D25006B3321 /* SpinCityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpinCityTests-Info.plist"; sourceTree = "<group>"; };
 		38322CB3194D4D25006B3321 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		38322CB5194D4D25006B3321 /* SpinCityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpinCityTests.m; sourceTree = "<group>"; };
+		38322CBF194D5B24006B3321 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		38322CC0194D5B24006B3321 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				38322CA0194D4D25006B3321 /* DetailViewController.m */,
 				38322CA2194D4D25006B3321 /* Images.xcassets */,
 				38322C8E194D4D25006B3321 /* Supporting Files */,
+				38322CBF194D5B24006B3321 /* Album.h */,
+				38322CC0194D5B24006B3321 /* Album.m */,
 			);
 			path = SpinCity;
 			sourceTree = "<group>";
@@ -257,6 +262,7 @@
 				38322C98194D4D25006B3321 /* AppDelegate.m in Sources */,
 				38322C9E194D4D25006B3321 /* MasterViewController.m in Sources */,
 				38322C94194D4D25006B3321 /* main.m in Sources */,
+				38322CC1194D5B24006B3321 /* Album.m in Sources */,
 				38322CA1194D4D25006B3321 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

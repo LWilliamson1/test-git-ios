@@ -21,6 +21,13 @@
 		386E30A519A2DF5F00E785D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 386E308719A2DF5F00E785D5 /* UIKit.framework */; };
 		386E30AD19A2DF5F00E785D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 386E30AB19A2DF5F00E785D5 /* InfoPlist.strings */; };
 		386E30AF19A2DF5F00E785D5 /* Man_s_Best_FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 386E30AE19A2DF5F00E785D5 /* Man_s_Best_FriendTests.m */; };
+		386E30BA19A2DFA100E785D5 /* MBFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 386E30B919A2DFA100E785D5 /* MBFDog.m */; };
+		386E310219A427AD00E785D5 /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 386E30FD19A427AD00E785D5 /* Bo.jpg */; };
+		386E310319A427AD00E785D5 /* BorderCollie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 386E30FE19A427AD00E785D5 /* BorderCollie.jpg */; };
+		386E310419A427AD00E785D5 /* ItalianGreyhound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 386E30FF19A427AD00E785D5 /* ItalianGreyhound.jpg */; };
+		386E310519A427AD00E785D5 /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 386E310019A427AD00E785D5 /* JRT.jpg */; };
+		386E310619A427AD00E785D5 /* St.Bernard.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 386E310119A427AD00E785D5 /* St.Bernard.JPG */; };
+		386E310919A6D28200E785D5 /* MBFPuppy.m in Sources */ = {isa = PBXBuildFile; fileRef = 386E310819A6D28200E785D5 /* MBFPuppy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,15 @@
 		386E30AA19A2DF5F00E785D5 /* Man's Best FriendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Man's Best FriendTests-Info.plist"; sourceTree = "<group>"; };
 		386E30AC19A2DF5F00E785D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		386E30AE19A2DF5F00E785D5 /* Man_s_Best_FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man_s_Best_FriendTests.m; sourceTree = "<group>"; };
+		386E30B819A2DFA100E785D5 /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBFDog.h; path = ../MBFDog.h; sourceTree = "<group>"; };
+		386E30B919A2DFA100E785D5 /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBFDog.m; path = ../MBFDog.m; sourceTree = "<group>"; };
+		386E30FD19A427AD00E785D5 /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpg; sourceTree = "<group>"; };
+		386E30FE19A427AD00E785D5 /* BorderCollie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BorderCollie.jpg; sourceTree = "<group>"; };
+		386E30FF19A427AD00E785D5 /* ItalianGreyhound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItalianGreyhound.jpg; sourceTree = "<group>"; };
+		386E310019A427AD00E785D5 /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
+		386E310119A427AD00E785D5 /* St.Bernard.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = St.Bernard.JPG; sourceTree = "<group>"; };
+		386E310719A6D28200E785D5 /* MBFPuppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFPuppy.h; sourceTree = "<group>"; };
+		386E310819A6D28200E785D5 /* MBFPuppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFPuppy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +133,10 @@
 				386E309519A2DF5F00E785D5 /* Main.storyboard */,
 				386E309819A2DF5F00E785D5 /* LWViewController.h */,
 				386E309919A2DF5F00E785D5 /* LWViewController.m */,
+				386E30B919A2DFA100E785D5 /* MBFDog.m */,
+				386E30B819A2DFA100E785D5 /* MBFDog.h */,
+				386E310719A6D28200E785D5 /* MBFPuppy.h */,
+				386E310819A6D28200E785D5 /* MBFPuppy.m */,
 				386E309B19A2DF5F00E785D5 /* Images.xcassets */,
 				386E308A19A2DF5F00E785D5 /* Supporting Files */,
 			);
@@ -126,6 +146,7 @@
 		386E308A19A2DF5F00E785D5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				386E30FC19A427AD00E785D5 /* dog-image-assets */,
 				386E308B19A2DF5F00E785D5 /* Man's Best Friend-Info.plist */,
 				386E308C19A2DF5F00E785D5 /* InfoPlist.strings */,
 				386E308F19A2DF5F00E785D5 /* main.m */,
@@ -150,6 +171,18 @@
 				386E30AB19A2DF5F00E785D5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		386E30FC19A427AD00E785D5 /* dog-image-assets */ = {
+			isa = PBXGroup;
+			children = (
+				386E30FD19A427AD00E785D5 /* Bo.jpg */,
+				386E30FE19A427AD00E785D5 /* BorderCollie.jpg */,
+				386E30FF19A427AD00E785D5 /* ItalianGreyhound.jpg */,
+				386E310019A427AD00E785D5 /* JRT.jpg */,
+				386E310119A427AD00E785D5 /* St.Bernard.JPG */,
+			);
+			path = "dog-image-assets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +262,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				386E310619A427AD00E785D5 /* St.Bernard.JPG in Resources */,
+				386E310419A427AD00E785D5 /* ItalianGreyhound.jpg in Resources */,
 				386E309C19A2DF5F00E785D5 /* Images.xcassets in Resources */,
+				386E310519A427AD00E785D5 /* JRT.jpg in Resources */,
 				386E308E19A2DF5F00E785D5 /* InfoPlist.strings in Resources */,
+				386E310319A427AD00E785D5 /* BorderCollie.jpg in Resources */,
+				386E310219A427AD00E785D5 /* Bo.jpg in Resources */,
 				386E309719A2DF5F00E785D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,7 +290,9 @@
 			files = (
 				386E309019A2DF5F00E785D5 /* main.m in Sources */,
 				386E309419A2DF5F00E785D5 /* LWAppDelegate.m in Sources */,
+				386E30BA19A2DFA100E785D5 /* MBFDog.m in Sources */,
 				386E309A19A2DF5F00E785D5 /* LWViewController.m in Sources */,
+				386E310919A6D28200E785D5 /* MBFPuppy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +497,7 @@
 				386E30B419A2DF5F00E785D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		386E30B519A2DF5F00E785D5 /* Build configuration list for PBXNativeTarget "Man's Best FriendTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +506,7 @@
 				386E30B719A2DF5F00E785D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
